@@ -1,0 +1,32 @@
+#json-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 400px;
+  bottom: 0;
+}
+#json-container textarea {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  resize: none;
+  font-family: monospace;
+  font-size: 14px;
+}
+#json-container textarea.invalid {
+  color: red;
+}
+
+#paper-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 400px;
+  bottom: 0;
+}
+
+#logo {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+}
